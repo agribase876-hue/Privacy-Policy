@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - AgriBase</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #fdfdf9; }
         h1, h2, h3 { color: #556B2F; }
         ul { padding-left: 20px; }
+        .last-updated { font-style: italic; color: #777; margin-bottom: 30px; }
+        footer { margin-top: 50px; font-size: 0.9em; color: #888; text-align: center; }
     </style>
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p>Last updated: March 25, 2026</p>
+    <p class="last-updated">Last updated: October 26, 2024</p>
+    
     <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
     <p>We use Your Personal Data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
 
-    <h2>Interpretation and Definitions</h2>
+    <h2>1. Interpretation and Definitions</h2>
     <p>For the purposes of this Privacy Policy, "Application" and "Service" refer to <strong>AgriBase</strong>. "Company", "We", "Us" or "Our" refers to AgriBase, Jamaica.</p>
 
-    <h2>Collecting and Using Your Personal Data</h2>
+    <h2>2. Collecting and Using Your Personal Data</h2>
     <h3>Types of Data Collected</h3>
 
     <h4>Personal Data</h4>
@@ -27,11 +32,11 @@
         <li>First and last name</li>
         <li>Phone number (Optional)</li>
         <li>Approximate Location (Manually selected Parish in Jamaica)</li>
-        <li>Profile Picture (Stored locally on your device)</li>
+        <li>Profile Picture (Stored on your device and linked to your account)</li>
     </ul>
 
-    <h4>User-Generated Content</h4>
-    <p>We collect information that you create within the app to provide a personalized farming experience:</p>
+    <h4>User-Generated Content & Cloud Syncing</h4>
+    <p>We collect information that you create within the app to provide a personalized farming experience. To enable multi-device access, this data is securely synced to our cloud database (Cloud Firestore):</p>
     <ul>
         <li><strong>Farmer Journal:</strong> Personal notes and agricultural records.</li>
         <li><strong>Farm Management:</strong> Tasks, schedules, and financial transactions (income/expenses).</li>
@@ -43,33 +48,37 @@
     <p>We use <strong>Google Analytics for Firebase</strong> to collect information such as Your Device's unique ID, operating system, and basic app interaction statistics. This is used solely to improve the app's performance and user experience.</p>
 
     <h3>Third-Party Services</h3>
-    <p>The Service uses third-party providers that may collect information used to identify you:</p>
+    <p>The Service uses third-party providers that may collect information used to identify you or analyze content:</p>
     <ul>
-        <li><strong>Firebase Authentication:</strong> Secure login management.</li>
+        <li><strong>Firebase Services:</strong> Used for Authentication (Login), Firestore (Data Syncing), and Analytics.</li>
         <li><strong>Google Sign-In:</strong> Optional authentication via your Google Account.</li>
-        <li><strong>Cloud Firestore:</strong> Secure syncing of community and market data.</li>
+        <li><strong>Nyckel AI:</strong> An image and text recognition service. When you use the "AI Diagnostic" tool, your photos and text descriptions are transmitted to Nyckel for disease identification. This data is not stored with your personal identity.</li>
     </ul>
 
-    <h3>Data Storage & Privacy</h3>
-    <p><strong>Private Local Storage:</strong> Personal records such as journal notes, favorites, and tasks are stored locally on your device using <strong>unique namespaced keys</strong>. This ensures that if multiple users share a device, their private data remains separate and inaccessible to other accounts on that same device.</p>
+    <h3>Data Storage & Device Privacy</h3>
+    <p><strong>Namespaced Storage:</strong> Private records such as journal notes and tasks are stored locally on your device using unique namespaced keys. This ensures that if multiple users share a single device, their private data remains separate and inaccessible to other accounts on that same device.</p>
 
-    <h3>Use of Your Personal Data</h3>
+    <h2>3. Use of Your Personal Data</h2>
     <ul>
         <li><strong>To provide and maintain our Service:</strong> including monitoring usage.</li>
         <li><strong>To manage Your Account:</strong> giving You access to different functionalities.</li>
         <li><strong>To personalize your experience:</strong> displaying relevant farming tips based on your selected Parish and interests.</li>
     </ul>
 
-    <h3>Delete Your Personal Data</h3>
-    <p>You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You. You may update or delete Your information at any time by signing in to Your Account and visiting the profile settings.</p>
+    <h2>4. Deleting Your Personal Data</h2>
+    <p>You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You. You may delete your account and all associated cloud data permanently using the <strong>"Delete Account"</strong> button within the app settings.</p>
 
-    <h2>Children's Privacy</h2>
+    <h2>5. Children's Privacy</h2>
     <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13.</p>
 
-    <h2>Contact Us</h2>
+    <h2>6. Contact Us</h2>
     <p>If you have any questions about this Privacy Policy, You can contact us:</p>
     <ul>
-        <li>By email: <strong>agribase876@gmail.com</strong></li>
+        <li>By email: <strong>agribase-support@gmail.com</strong></li>
     </ul>
+
+    <footer>
+        &copy; 2024 AgriBase. All rights reserved.
+    </footer>
 </body>
 </html>
